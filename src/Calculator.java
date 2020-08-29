@@ -3,9 +3,8 @@ import java.util.Scanner;
 
 /**
  * Created by zhigan on 13.08.2020.*
- * 
+ *
  */
-
 public class Calculator {
     public static void main(String[] args){
         /*Test.test = 1;

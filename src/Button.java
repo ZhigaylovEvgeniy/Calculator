@@ -1,5 +1,5 @@
 /**
- * Created by zhigan on 13.08.2020.
+ * Created by zhigan  on 13.08.2020.
  */
 public class Button {
     String imya_knopki;

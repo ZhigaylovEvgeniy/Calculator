@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 /**
- * Created by zhigan on 15.08.2020.
+ * Created by zhigan  on 15.08.2020.
  */
 public class Arab {
 

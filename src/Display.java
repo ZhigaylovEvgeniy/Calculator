@@ -1,5 +1,5 @@
 /**
- * Created by zhigan on 25.08.2020.
+ * Created by zhigan  on 25.08.2020.
  */
 public class Display {
     int Digit = 0;
