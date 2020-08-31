@@ -3,7 +3,7 @@
  */
 public class Test {
 
-    public static String Testing(){
+    public static String Testing() {
 
 
         String DP = "";
@@ -18,7 +18,7 @@ public class Test {
         return DP;
     }
 
-    public static String Test_1(){
+    public static String Test_1() {
 
         if (iiii == 1 & a == 1 & z == '+') {
             System.out.println("АРАБСКИЕ вычисления");
@@ -39,21 +39,21 @@ public class Test {
 
         String DP = "" + a + z + iiii;
 
-        if (iiii == 10){
-            if (z == '+' & a == 10){
+        if (iiii == 10) {
+            if (z == '+' & a == 10) {
                 z = '-';
                 a = 0;
             }
-            if (z == '-' & a == 10){
+            if (z == '-' & a == 10) {
                 z = '*';
                 a = 0;
             }
-            if (z == '*' & a == 10){
+            if (z == '*' & a == 10) {
                 z = '/';
                 a = 0;
             }
 
-            if (z == '/' & a == 10){
+            if (z == '/' & a == 10) {
                 //System.out.println("iiii " + Calculator.iiii + "\ta " + Calculator.a + "\tz " + Calculator.z);
                 z = '+';
                 a = 0;
@@ -67,7 +67,7 @@ public class Test {
         return DP;
     }//A
 
-    public static String Test_2(){
+    public static String Test_2() {
         if (iiii == 1 & a == 1 & z == '+') {
             System.out.println("РИМСКИЕ вычисления");
             System.out.println("Арифметические операции на СЛОЖЕНИЕ");
@@ -85,21 +85,21 @@ public class Test {
             System.out.println("Арифметические операции на ДЕЛЕНИЕ");
         }
 
-        String DP = "" + Roman.Konverter_Arabskikh_v_Rimskiye(String.valueOf(a))  + z + Roman.Konverter_Arabskikh_v_Rimskiye(String.valueOf(iiii));
+        String DP = "" + Roman.Konverter_Arabskikh_v_Rimskiye(String.valueOf(a)) + z + Roman.Konverter_Arabskikh_v_Rimskiye(String.valueOf(iiii));
         //System.out.println("Вы ввели строку \t" + DP);
 
-        if (iiii == 10){
-            if (z == '+' & a == 10){
+        if (iiii == 10) {
+            if (z == '+' & a == 10) {
                 z = '-';
                 a = 0;
                 //System.out.println("Арифметические операции на ВЫЧЕТАНИЕ");
             }
-            if (z == '-' & a == 10){
+            if (z == '-' & a == 10) {
                 z = '*';
                 a = 0;
                 //System.out.println("Арифметические операции на УМНОЖЕНИЕ");
             }
-            if (z == '*' & a == 10){
+            if (z == '*' & a == 10) {
                 z = '/';
                 a = 0;
                 //System.out.println("Арифметические операции на ДЕЛЕНИЕ");

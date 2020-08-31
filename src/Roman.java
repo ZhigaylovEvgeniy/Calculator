@@ -2,14 +2,14 @@ import java.io.IOException;
 
 /**
  * Created by zhigan on 15.08.2020.
- *
+ * <p>
  * ЭКСКУРС
  * 1) Дробей римляне избегали! Поэтому я решил извлекать из дробного числа только целое, без округления
- *
+ * <p>
  * 2) В системе римских цифр отсутствует ноль, но ранее использовалось обозначение нуля как nulla (нет),
- *      nihil (ничто) и N (первая буква этих слов ).
- *      Я ВЫБРАЛ
- *      N
+ * nihil (ничто) и N (первая буква этих слов ).
+ * Я ВЫБРАЛ
+ * N
  */
 public class Roman {
 
@@ -24,8 +24,7 @@ public class Roman {
             if (pap == 0) {
                 try {
                     throw new IOException();
-                }
-                catch (IOException ioe){
+                } catch (IOException ioe) {
                     System.err.println("Переменная (" + P + ") не принадлежит Римской");
                     System.exit(0);
                 }
@@ -153,8 +152,7 @@ public class Roman {
         if (DP1.length() > 0) {
             try {
                 throw new IOException();
-            }
-            catch (IOException ioe){
+            } catch (IOException ioe) {
                 System.err.println("Римское число записано не верно, выходим из приложения");
                 System.exit(0);
             }
@@ -170,8 +168,7 @@ public class Roman {
             if (DP1.length() > 0) {
                 try {
                     throw new IOException();
-                }
-                catch (IOException ioe){
+                } catch (IOException ioe) {
                     System.err.println("Римское число записано не верно, выходим из приложения");
                     System.exit(0);
                 }
@@ -191,8 +188,7 @@ public class Roman {
             if (MRRC == k_5r.razryadnost_knopki) {
                 try {
                     throw new IOException();
-                }
-                catch (IOException ioe){
+                } catch (IOException ioe) {
                     System.err.println("Римское число записано не верно, выходим из приложения");
                     System.exit(0);
                 }
@@ -207,8 +203,7 @@ public class Roman {
         if (VYpRC != 5) {
             try {
                 throw new IOException();
-            }
-            catch (IOException ioe){
+            } catch (IOException ioe) {
                 System.err.println("Римское число записано не верно, выходим из приложения");
                 System.exit(0);
             }
@@ -224,8 +219,7 @@ public class Roman {
             if (DP1.length() > 0) {
                 try {
                     throw new IOException();
-                }
-                catch (IOException ioe){
+                } catch (IOException ioe) {
                     System.err.println("Римское число записано не верно, выходим из приложения");
                     System.exit(0);
                 }
@@ -237,8 +231,7 @@ public class Roman {
             VYRC = 0;
             try {
                 throw new IOException();
-            }
-            catch (IOException ioe){
+            } catch (IOException ioe) {
                 System.err.println("Римское число записано не верно, выходим из приложения");
                 System.exit(0);
             }
@@ -290,8 +283,7 @@ public class Roman {
                                     Rp = 0;
                                     try {
                                         throw new IOException();
-                                    }
-                                    catch (IOException ioe){
+                                    } catch (IOException ioe) {
                                         System.err.println("Римское число записано не верно, выходим из приложения");
                                         System.exit(0);
                                     }
@@ -317,8 +309,7 @@ public class Roman {
                 if (P.charAt(1) != k_5r.simvol_knopki) {
                     try {
                         throw new IOException();
-                    }
-                    catch (IOException ioe){
+                    } catch (IOException ioe) {
                         System.err.println("Римское число записано не верно, выходим из приложения");
                         System.exit(0);
                     }
@@ -348,8 +339,7 @@ public class Roman {
                                     Rp = 0;
                                     try {
                                         throw new IOException();
-                                    }
-                                    catch (IOException ioe){
+                                    } catch (IOException ioe) {
                                         System.err.println("Римское число записано не верно, выходим из приложения");
                                         System.exit(0);
                                     }
@@ -470,10 +460,10 @@ public class Roman {
             RC = Rezultat.substring(ii, Rezultat.length());
         }
 
-        if (Integer.valueOf(Rezultat) < 0){
+        if (Integer.valueOf(Rezultat) < 0) {
             return "-" + RCDT + RCT + RCS + RCD + RCY;
         }
-        if (Integer.valueOf(Rezultat) == 0){
+        if (Integer.valueOf(Rezultat) == 0) {
             //System.out.println("В системе римских цифр отсутствует ноль, но ранее использовалось обозначение нуля как nulla (нет), nihil (ничто) и N (первая буква этих слов). Я ВЫБРАЛ " + RCY);
             return "N";
         }

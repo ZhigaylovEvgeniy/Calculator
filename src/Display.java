@@ -10,13 +10,13 @@ public class Display {
         Digit = Dg;
     }
 
-    public static void Display_0123456789(Display d){
-        if (d.Calculation.length()<= d.Digit) {
+    public static void Display_0123456789(Display d) {
+        if (d.Calculation.length() <= d.Digit) {
             System.out.println("Output:");
             System.out.println(d.Calculation);
         }
 
-        if (d.Calculation.length() > d.Digit){
+        if (d.Calculation.length() > d.Digit) {
             System.out.println("ИТОГИ больше длины дисплея, поэтому будет отображенно первые " + d.Digit + " символов");
             System.out.println("Output:");
             System.out.println(d.Calculation.substring(0, d.Digit));
